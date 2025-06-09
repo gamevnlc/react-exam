@@ -8,11 +8,12 @@ import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx";
+import MyComponentV2 from "./MyComponentV2.jsx";
 
 function App() {
   return (
       <>
-          <Counter />
+          <MyComponentV2/>
       </>
   );
 }
