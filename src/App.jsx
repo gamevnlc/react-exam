@@ -17,6 +17,7 @@ import TodoList from "./TodoList.jsx";
 import MyComponentV6 from "./MyComponentV6.jsx";
 import MyComponentV7 from "./MyComponentV7.jsx";
 import DigitalClock from "./DigitalClock.jsx";
+import MyComponentV8 from "./MyComponentV8.jsx";
 // useEffect(() => {}) run every re-render
 // useEffect(() => {}, []) run only on mount
 // useEffect(() => {}, [value]) run  on mount when value changes
@@ -24,7 +25,7 @@ import DigitalClock from "./DigitalClock.jsx";
 function App() {
   return (
       <>
-          <DigitalClock/>
+          <MyComponentV8/>
       </>
   );
 }
