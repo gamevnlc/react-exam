@@ -14,11 +14,16 @@ import MyComponentV3 from "./MyComponentV3.jsx";
 import MyComponentV4 from "./MyComponentV4.jsx";
 import MyComponentV5 from "./MyComponentV5.jsx";
 import TodoList from "./TodoList.jsx";
+import MyComponentV6 from "./MyComponentV6.jsx";
+import MyComponentV7 from "./MyComponentV7.jsx";
+// useEffect(() => {}) run every re-render
+// useEffect(() => {}, []) run only on mount
+// useEffect(() => {}, [value]) run  on mount when value changes
 
 function App() {
   return (
       <>
-          <TodoList/>
+          <MyComponentV7/>
       </>
   );
 }
