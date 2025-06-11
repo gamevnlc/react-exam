@@ -18,6 +18,7 @@ import MyComponentV6 from "./MyComponentV6.jsx";
 import MyComponentV7 from "./MyComponentV7.jsx";
 import DigitalClock from "./DigitalClock.jsx";
 import MyComponentV8 from "./MyComponentV8.jsx";
+import MyComponentV12 from "./MyComponentV12.jsx";
 // useEffect(() => {}) run every re-render
 // useEffect(() => {}, []) run only on mount
 // useEffect(() => {}, [value]) run  on mount when value changes
@@ -25,7 +26,7 @@ import MyComponentV8 from "./MyComponentV8.jsx";
 function App() {
   return (
       <>
-          <MyComponentV8/>
+          <MyComponentV12/>
       </>
   );
 }
